@@ -24,3 +24,5 @@ function generateRandomIndex(array) {
 console.log(generateRandomIndex(subjects))
 
 console.log(Math.floor(Math.random() * 10))
+
+whwhhe
