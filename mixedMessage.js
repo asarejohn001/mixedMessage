@@ -11,9 +11,16 @@ the message that it outputs should be made up of at least three different pieces
 Take what you know of JavaScript syntax so far to build the program and customize it to your liking. */
 
 // Array of different messages
-const subjects = ["You", "Your friend", "A stranger", "Your colleague", "Your neighbor"];
-const verbs = ["will achieve", "can accomplish", "will conquer", "will master", "will discover"];
-const objects = ["great things", "your dreams", "new heights", "success", "happiness"];
+const subjects = ["You", "Your friend", "A stranger", "Your colleague", "Your neighbor"]
+const verbs = ["will achieve", "can accomplish", "will conquer", "will master", "will discover"]
+const objects = ["great things", "your dreams", "new heights", "success", "happiness"]
 
 
+// A function to get random number using the lenght of an array
+function generateRandomIndex(array) {
+    return Math.floor(Math.random() * array.length)
+}
 
+console.log(generateRandomIndex(subjects))
+
+console.log(Math.floor(Math.random() * 10))
