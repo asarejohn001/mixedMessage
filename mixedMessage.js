@@ -21,8 +21,5 @@ function generateRandomIndex(array) {
     return Math.floor(Math.random() * array.length)
 }
 
-console.log(generateRandomIndex(subjects))
 
-console.log(Math.floor(Math.random() * 10))
 
-whwhhe
