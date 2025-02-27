@@ -15,11 +15,21 @@ const subjects = ["You", "Your friend", "A stranger", "Your colleague", "Your ne
 const verbs = ["will achieve", "can accomplish", "will conquer", "will master", "will discover"]
 const objects = ["great things", "your dreams", "new heights", "success", "happiness"]
 
+console.log(subjects.length)
+
 
 // A function to get random number using the lenght of an array
-function generateRandomIndex(array) {
+/* function generateRandomIndex(array) {
     return Math.floor(Math.random() * array.length)
-}
+} */
 
+
+function generateRandomMessage() {
+    const subject = subjects[generateRandomIndex(subjects)]
+    const verb = verbs[generateRandomIndex(verbs)]
+    const object = objects[generateRandomIndex(objects)]
+
+    return `${subject} ${verb} ${object}`
+}
 
 
